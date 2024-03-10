@@ -1,5 +1,5 @@
 import React from "react";
-import { FiFacebook, FiTwitter, FiInstagram } from "react-icons/fi";
+import { FiLinkedin, FiGithub } from "react-icons/fi";
 
 import { FooterOverlay, Newsletter } from "../../components";
 import { images } from "../../constants";
@@ -30,9 +30,12 @@ const Footer = () => (
           style={{ marginTop: 15 }}
         />
         <div className="app__footer-links_icons">
-          <FiFacebook />
-          <FiTwitter />
-          <FiInstagram />
+          <a href="https://www.linkedin.com/in/prabhatranjan06">
+            <FiLinkedin />
+          </a>
+          <a href="https://github.com/prabhatshahi">
+            <FiGithub />
+          </a>
         </div>
       </div>
 
